@@ -1,0 +1,194 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #EFEFEF;
+  width: 100%;
+  display: flex;
+  align-content: center;
+
+}
+
+body::before{
+  content: '';
+  width: 100%;
+  height: 436px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #535971;
+}
+
+.page{
+  width: 1084;
+  margin: 0 auto;
+  
+}
+
+body,label, p{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+legend, h1, h2, footer input{
+  font-family: 'Staatliches', cursive;
+}
+
+header{
+  width: 417px;
+
+  margin-top: 140px;
+  margin-bottom: 58px;
+  gap: 18px;
+}
+
+header h1{
+  color: #FFF;
+  font-size: 48px;
+  font-weight: normal;
+}
+
+header p{
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+}
+
+form{
+  background: white;
+  border-radius: 20px 20px 0 0;
+
+  width: 750px;
+  min-height: 500px;
+  padding: 64px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset{
+  border: none;
+}
+
+fieldset:nth-child(1),fieldset:nth-child(2){
+  margin-bottom: 30px;
+}
+
+.fieldset-wrapper .input-wrapper{
+
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+
+}
+
+form legend{
+  height: 50px;
+  font-size: 24px;
+  color: #535971;
+  border-bottom: 1px solid #E6E6F0;
+
+  margin-bottom: 36px;
+}
+
+form label{
+  color: #4E4958;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+form input{
+  background: #FAFAFC;
+
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+
+  height: 56px;
+
+}
+
+label span{
+  color: #C1BCCC;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 20px;
+
+
+}
+
+.complete-name{
+  display: flex;
+  justify-content: space-between;
+}
+
+.complete-name input{
+  width: 300px;
+}
+
+
+.first-mentorship,.second-mentorship{
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-mentorship div,.second-mentorship div{
+  width: 300px;
+  
+}
+
+h2{
+  color: #535971;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 34px;
+}
+
+.first-date{
+  margin-right: 32px;
+}
+
+.time{
+  display: flex;
+  justify-content: space-between;
+}
+
+.time input{
+  width: 140px;
+
+}
+
+footer{
+  background: #535971;
+  height: 160px;
+  border-radius: 0 0 8px 8px;
+
+  margin-bottom: 350px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 71px 51px;
+}
+
+footer input{
+  border: none;
+  display: flex;
+  width: 608px;
+  height: 55.652px;
+  padding: 15px 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: #FF5374;
+  color: white;
+  font-size: 20px;
+
+
+}
